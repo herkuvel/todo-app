@@ -1,0 +1,171 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App */
+.App {
+  background-color: rgb(219, 224, 255);
+  padding: 1rem 0;
+  border-radius: 8px;
+  width: 40rem;
+}
+
+.title {
+  color: rgb(44, 30, 195);
+  padding-bottom: 1rem;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: #8b91ff;
+  padding: 0.5rem;
+
+}
+
+/* TodoApp */
+.TodoApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8b91ff;
+  border-radius: 8px;
+  width: 24rem;
+  padding: 0.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+/* CreateTodo */
+.createForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  width: 24rem;
+}
+
+/* Todo */
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.atodo {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+  width: 24rem;
+}
+
+.todoText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+  width: 85%;
+  padding-left: 1rem;
+}
+
+.todoSettings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 15%;
+  gap: 0.6rem;
+
+}
+
+/* EditTodo */
+.editForm {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  width: 24rem;
+  background-color: rgb(209, 215, 255);
+}
+
+/* Inputs */
+/* Create */
+#todoInput {
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+/* Edit  */
+#editInput {
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 7rem;
+  font-size: 0.8rem;
+}
+#editSelect {
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+#editButton {
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+/* Icons */
+.icon {
+  cursor: pointer;
+}
+
+#backupIcon {
+  color: rgb(0, 23, 228);
+}
+#backupIcon:hover {
+  color: rgb(47, 255, 0);
+}
+
+#checkIcon {
+  color: rgb(47, 255, 0);
+}
+#checkIcon:hover {
+  color: rgb(0, 23, 228);
+}
+
+#editIcon {
+  color: rgb(6, 60, 255);
+}
+#deleteIcon {
+  color: rgb(255, 30, 30);
+}
+
+/* Text */
+.completed {
+  color: white;
+  ;
+  text-decoration: line-through;
+}
+
+.incompleted {
+  color: rgb(0, 23, 228);
+}
